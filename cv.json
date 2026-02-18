@@ -1,148 +1,229 @@
 {
-  "firstName": "Claud D.",
-  "lastName": "Park",
-  "position": "Software Engineer",
-  "quote": "Must be the change that you want to see in the world!",
-  "photo": "https://avatars0.githubusercontent.com/u/1484002",
-  "contacts": [{
-    "type": "phone",
-    "text": "(+82) 10-9030-1843",
-    "url": ""
-  }, {
-    "type": "email",
-    "text": "posquit0.bj@gmail.com",
-    "url": "mailto:posquit0.bj@gmail.com"
-  }, {
-    "type": "homepage",
-    "text": "posquit0.com",
-    "url": "https://www.posquit0.com"
-  }],
-  "socials": [{
-    "type": "homepage",
-    "text": "posquit0",
-    "url": "http://www.posquit0.com"
-  }, {
-    "type": "github",
-    "text": "posquit0",
-    "url": "https://github.com/posquit0"
-  }, {
-    "type": "linkedin",
-    "text": "posquit0",
-    "url": "https://www.linkedin.com/in/posquit0"
-  }],
-  "sections": [{
-    "title": "Summary",
-    "description": "Current Co-founder & Software Engineer in start-up company PLAT Corp. 5+ years experience specializing in back-end/infrastructure, web development and computer security. Super nerd who loves Vim, Linux and OS X and enjoys to customize all of development environment. Interested in devising a better problem solving method for a challenging task, and learning new technologies and tools if need arises."
-  }, {
-    "title": "Work Experience",
-    "type": "detail",
-    "items": [{
-      "title": "Co-founder & Software Engineer",
-      "organization": "PLAT Corp.",
-      "location": "Seoul, S.Korea",
-      "date": "Jan. 2016 - Present",
-      "descriptions": [
-        "Implemented RESTful API server for car rental booking application(CARPLAT in Google Play).",
-        "Developed the Payments module which connected to major PG(Payment Gateway) companies in Korea."
+  "firstName": "Yekanth",
+  "lastName": "Kola",
+  "position": "Software Engineer / Full-Stack (.NET + Angular) with DevOps (AWS)",
+  "quote": "Strong problem-solver with a passion for clean code, agile collaboration, and continuous learning.",
+  "photo": "",
+  "contacts": [
+    {
+      "type": "phone",
+      "text": "(+91) 9948789978",
+      "url": ""
+    },
+    {
+      "type": "phone",
+      "text": "(+46) 722991254",
+      "url": ""
+    },
+    {
+      "type": "email",
+      "text": "azx.yekanth@gmail.com",
+      "url": "mailto:azx.yekanth@gmail.com"
+    },
+    {
+      "type": "github",
+      "text": "yekanthkola",
+      "url": "https://github.com/yekanthkola"
+    },
+    {
+      "type": "linkedin",
+      "text": "azx-yekanth",
+      "url": "https://www.linkedin.com/in/azx-yekanth"
+    },
+    {
+      "type": "location",
+      "text": "Södertälje, Sweden",
+      "url": ""
+    }
+  ],
+  "socials": [
+    {
+      "type": "github",
+      "text": "yekanthkola",
+      "url": "https://github.com/yekanthkola"
+    },
+    {
+      "type": "linkedin",
+      "text": "azx-yekanth",
+      "url": "https://www.linkedin.com/in/azx-yekanth"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Summary",
+      "description": "Experienced Software Engineer with 8+ years building scalable enterprise and SaaS applications using Python, C#, ASP.NET Core/.NET (Web API, MVC, EF), and Angular. Experienced in real-time data processing, REST API design, database design/migrations, DevOps scripting (PowerShell), containerization (Docker), and IaC (Terraform/Packer) for hybrid AWS + on-prem environments. Comfortable in international agile teams (US clients, Europe collaboration)."
+    },
+    {
+      "title": "Work Experience",
+      "type": "detail",
+      "items": [
+        {
+          "title": "Software Engineer",
+          "organization": "S&P Global",
+          "location": "Hyderabad, India",
+          "date": "Nov 2021 - Present",
+          "descriptions": [
+            "Automated XML data feeds to SFTP servers using Python with robust error logging/reporting.",
+            "Provisioned and managed hybrid infrastructure (AWS + on-prem) using Terraform and Packer (IaC).",
+            "Built enterprise web applications using .NET technologies to improve UX and performance.",
+            "Designed/implemented RESTful APIs; executed data migration using Code-First and LINQ.",
+            "Developed PowerShell scripts to manage DB/file-streamer policies across build environments.",
+            "Collaborated with cross-functional teams on UI and custom controls."
+          ]
+        },
+        {
+          "title": "Software Engineer - 1",
+          "organization": "PDI Software",
+          "location": "Hyderabad, India",
+          "date": "Oct 2020 - Nov 2021",
+          "descriptions": [
+            "Developed SaaS web applications using Angular and .NET Core for scalability/performance.",
+            "Dockerized console apps for job scheduling in Linux containers to streamline deployments.",
+            "Handled database development: schema, stored procedures, transactions; performance tuning with T-SQL/PL-SQL.",
+            "Built cross-system integration services (TelaPoint ↔ TransPac)."
+          ]
+        },
+        {
+          "title": "Junior Software Developer",
+          "organization": "Launchship IT and Media Pvt Limited",
+          "location": "Hyderabad, India",
+          "date": "Sep 2017 - Oct 2020",
+          "descriptions": [
+            "Delivered enterprise applications using Microsoft .NET technologies within deadlines.",
+            "Developed and maintained UIs and custom controls.",
+            "Built modules for 'Academy Front' SaaS for educational institution management.",
+            "Implemented RBAC authentication and custom rule-engine validation.",
+            "Contributed to SSO across multiple applications.",
+            "Dockerized console applications for automated jobs and client integrations."
+          ]
+        }
       ]
-    }, {
-      "title": "Software Engineer & Security Researcher (Compulsory Military Service)",
-      "organization": "R.O.K Cyber Command, MND",
-      "location": "Seoul, S.Korea",
-      "date": "Aug. 2014 - Apr. 2016",
-      "descriptions": [
-        "Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.",
-        "Implemented a distributed web stress test tool with high anonymity.",
-        "Implemented a military cooperation system which is web based real time messenger in Scala on Lift."
+    },
+    {
+      "title": "Skills",
+      "type": "simple",
+      "items": [
+        { "title": "Back-end", "organization": "", "location": "", "date": "", "descriptions": ["C#", ".NET/.NET 5", "ASP.NET Core", "MVC", "Web API", "Entity Framework", "REST API design"] },
+        { "title": "Front-end", "organization": "", "location": "", "date": "", "descriptions": ["Angular", "Redux", "TypeScript", "JavaScript", "HTML5", "jQuery", "SASS"] },
+        { "title": "DevOps / Cloud", "organization": "", "location": "", "date": "", "descriptions": ["AWS", "GitLab CI/CD", "Docker", "Kubernetes", "Terraform", "Jenkins", "Packer"] },
+        { "title": "Programming / Scripting", "organization": "", "location": "", "date": "", "descriptions": ["Python", "Bash", "PowerShell", "C", "C++"] },
+        { "title": "Monitoring", "organization": "", "location": "", "date": "", "descriptions": ["ELK Stack", "Grafana"] },
+        { "title": "Databases", "organization": "", "location": "", "date": "", "descriptions": ["T-SQL", "PL/SQL", "Schema design", "Stored procedures", "Transactions", "Migrations (Code First)"] }
       ]
-    }]
-  }, {
-    "title": "Awards",
-    "type": "simple",
-    "items": [{
-      "title": "Finalist",
-      "organization": "DEFCON 22nd CTF Hacking Competition World Final",
-      "location": "Las Vegas, U.S.A",
-      "date": "2014"
-		}, {
-      "title": "Finalist",
-      "organization": "DEFCON 21st CTF Hacking Competition World Final",
-      "location": "Las Vegas, U.S.A",
-      "date": "2013"
-		}, {
-      "title": "Finalist",
-      "organization": "DEFCON 19th CTF Hacking Competition World Final",
-      "location": "Las Vegas, U.S.A",
-      "date": "2011"
-		}, {
-      "title": "6th Place",
-      "organization": "SECUINSIDE Hacking Competition World Final",
-      "location": "Seoul, S.Korea",
-      "date": "2012"
-		}, {
-      "title": "3rd Place",
-      "organization": "WITHCON Hacking Competition Final",
-      "location": "Seoul, S.Korea",
-      "date": "2015"
-		}, {
-      "title": "Silver Prize",
-      "organization": "KISA HDCON Hacking Competition Final",
-      "location": "Seoul, S.Korea",
-      "date": "2013"
-		}, {
-      "title": "2nd Place",
-      "organization": "HUST Hacking Festival",
-      "location": "S.Korea",
-      "date": "2013"
-		}, {
-      "title": "3rd Place",
-      "organization": "HUST Hacking Festival",
-      "location": "S.Korea",
-      "date": "2010"
-		}, {
-      "title": "3rd Place",
-      "organization": "Holyshield Hacking Festival",
-      "location": "S.Korea",
-      "date": "2012"
-		}, {
-      "title": "2nd Place",
-      "organization": "Holyshield Hacking Festival",
-      "location": "S.Korea",
-      "date": "2011"
-		}, {
-      "title": "5th Place",
-      "organization": "PADOCON Hacking Competition Final",
-      "location": "Seoul, S.Korea",
-      "date": "2011"
-    }]
-  }, {
-    "title": "Program Committees",
-    "type": "simple",
-    "items": [{
-      "title": "Problem Writer",
-      "organization": "CODEGATE Hacking Competition World Final",
-      "location": "S.Korea",
-      "date": "2016"
-		}, {
-      "title": "Organizer & Co-director",
-      "organization": "1st POSTECH Hackathon",
-      "location": "S.Korea",
-      "date": "2013"
-		}, {
-      "title": "Staff",
-      "organization": "7th Hacking Camp",
-      "location": "S.Korea",
-      "date": "2012"
-		}, {
-      "title": "Staff & Problem Writer",
-      "organization": "JFF Hacking Competition",
-      "location": "S.Korea",
-      "date": "2012"
-		}, {
-      "title": "Problem Writer",
-      "organization": "1st Hoseo University Hacking Competition for Teenager",
-      "location": "S.Korea",
-      "date": "2012"
-    }]
-  }]
+    },
+    {
+      "title": "Projects & Achievements",
+      "type": "simple",
+      "items": [
+        {
+          "title": "Real-time XML data feed automation",
+          "organization": "",
+          "location": "",
+          "date": "",
+          "descriptions": ["Automated real-time XML data feed + logging using Python; improved reliability by ~30%."]
+        },
+        {
+          "title": "Scalable REST APIs for SaaS",
+          "organization": "",
+          "location": "",
+          "date": "",
+          "descriptions": ["Developed scalable APIs reducing manual intervention in data flows."]
+        },
+        {
+          "title": "Hybrid deployment enablement",
+          "organization": "",
+          "location": "",
+          "date": "",
+          "descriptions": ["Dockerized multiple apps for hybrid (AWS + on-prem) deployment."]
+        }
+      ]
+    },
+    {
+      "title": "Certifications",
+      "type": "simple",
+      "items": [
+        {
+          "title": "AWS Certified Solutions Architect – Associate",
+          "organization": "Amazon Web Services",
+          "location": "",
+          "date": "08/2025 - 08/2028"
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "type": "detail",
+      "items": [
+        {
+          "title": "M.Tech in Power Electronics and Drives (77%)",
+          "organization": "JNTUK (Jawaharlal Nehru Technological University Kakinada)",
+          "location": "Kakinada, Andhra Pradesh, India",
+          "date": "Sep 2013 - May 2016",
+          "descriptions": ["Qualified GATE 2013; received stipend throughout M.Tech."]
+        },
+        {
+          "title": "B.Tech in Electrical and Electronics Engineering (71%)",
+          "organization": "JNTUK (Jawaharlal Nehru Technological University Kakinada)",
+          "location": "Kakinada, Andhra Pradesh, India",
+          "date": "Sep 2010 - May 2013",
+          "descriptions": []
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "type": "simple",
+      "items": [
+        { "title": "English", "organization": "", "location": "", "date": "Fluent", "descriptions": [] },
+        { "title": "Swedish", "organization": "", "location": "", "date": "Beginner", "descriptions": ["Currently learning"] }
+      ]
+    },
+    {
+      "title": "Extracurricular Activity",
+      "type": "detail",
+      "items": [
+        {
+          "title": "Member",
+          "organization": "Empower (Advancing Multicultural Diversity)",
+          "location": "Hyderabad, India",
+          "date": "Nov 2021 - Present",
+          "descriptions": [
+            "Participated in soap-making workshops for underprivileged children across local schools.",
+            "Built green desks with peers for local schools to support sustainability."
+          ]
+        },
+        {
+          "title": "Member",
+          "organization": "Market Intelligence",
+          "location": "",
+          "date": "",
+          "descriptions": [
+            "Cricket: represented corporate team in tournaments.",
+            "Badminton: participated in individual events.",
+            "Chess: regular participant in competitions."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Benchmark Comparison (2026 India & Europe)",
+      "type": "detail",
+      "items": [
+        {
+          "title": "Snapshot vs typical 2026 expectations (mid-level SWE)",
+          "organization": "Comparison derived from your CV + generic benchmark rubric",
+          "location": "India & Europe",
+          "date": "2026",
+          "descriptions": [
+            "Education: You have a Master's degree (meets/exceeds common expectation).",
+            "Experience: 8+ years (exceeds typical mid-level; aligns with Senior SWE expectations).",
+            "Core stack: Strong .NET + Angular + Python + REST APIs (meets/exceeds).",
+            "Cloud/DevOps: AWS + Terraform + Docker + Kubernetes exposure (meets/exceeds for many product teams).",
+            "Certifications: 1 relevant cert (AWS SAA) — often 1–2 is common; adding CKAD/CKA or Terraform Associate could strengthen DevOps profile.",
+            "Languages: English fluent + Swedish beginner (good for EU market; increasing Swedish level helps local roles)."
+          ]
+        }
+      ]
+    }
+  ]
 }
